@@ -1,0 +1,39 @@
+.card {
+    
+    padding: 1rem;
+    position: relative;
+}
+
+.text-linethrough {
+    text-decoration: line-through;
+    position: relative;
+}
+
+.card i {
+    color: red;
+    position: absolute;
+    right: 10px;
+    top: 35%;
+}
+
+.output-field i {
+    position: absolute;
+    top: 35%;
+    right: 10px;
+    color: red;
+}
+
+.desc {
+    font-weight: 400;
+}
+
+.date {
+    opacity: .5;
+    font-size: 1.2rem;
+}
+
+.date-linethrough {
+    opacity: .5;
+    font-size: 1.2rem;
+    text-decoration: line-through;
+}

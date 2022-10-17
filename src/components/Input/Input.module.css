@@ -1,0 +1,31 @@
+.form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.task-div {
+    display: flex;
+    flex-direction: column;
+    padding: 1rem 2rem;
+}
+
+.task-div input {
+    width: 100%;
+    padding: .5rem;
+    border: none;
+    border-radius: 30px;
+    margin-top: .5rem;
+}
+
+.button {
+    background-color: purple;
+    border: none;
+    display: block;
+    width: 100%;
+    padding: .5rem;
+    margin: .5rem auto;
+    border-radius: 8px;
+    color: white;
+
+}
